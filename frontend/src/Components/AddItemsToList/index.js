@@ -26,7 +26,7 @@ class AddItemsToList extends Component{
     submitForm = (event) =>{
         event.preventDefault();
         this.setState({editMesg:"Successfully Updated"})
-        const{id,airportName,countryName,countryCode,terminal} = this.state;
+        const{airportName,countryName,countryCode,terminal} = this.state;
         const {addSuccessfully} = this.props;
         console.log(uuidv4());
         const newObject = {

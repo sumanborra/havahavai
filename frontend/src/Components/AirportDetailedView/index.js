@@ -45,7 +45,7 @@ class AirportDetailedView extends Component{
                     </div>
                 </div>
                 <Flex wrap gap="size-250">
-                <Button variant="primary" style='outline'>+Add terminal</Button>
+                <Button variant="primary" style={{'style':'outline'}}>+Add terminal</Button>
                 </Flex>
             </div>
             <h1 className="heading-detailed-view">Services</h1><br/>

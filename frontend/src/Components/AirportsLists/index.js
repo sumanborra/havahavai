@@ -73,7 +73,7 @@ class AirportsLists extends Component{
                 <div className="airport-title-container">
                     <h1 className="airports-list-heading-text">Airports</h1>
                     <Flex wrap gap="size-250">
-                        <Button variant="primary" style="fill" onClick={this.addItemToList}>+Add new</Button>
+                        <Button variant="primary" style={{'style':'fill'}} onClick={this.addItemToList}>+Add new</Button>
                     </Flex>
                 </div>
                 <div className="list-of-table-airports-container">
