@@ -1,7 +1,5 @@
-[build]
-  command = "npm run build"
 
 [[redirects]]
-  from = "/*"
-  to = "public/index.html"
+  from = "public/index.html"
+  to = "src/index.js"
   status = 200
